@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<project name="ProbandoAnt" default="compilar" basedir="." >
+	<!-- propiedades globales del proyecto -->
+	<property name="fuente" value="./src" />
+	<property name="destino" value="./classes" />
+	<target name="compilar">
+		<javac srcdir="${fuente}" destdir="${destino}" includeantruntime="false"/>
+	</target>
+</project>
